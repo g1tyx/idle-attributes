@@ -11,7 +11,7 @@ let saveInterval;
 function saveLoop() {
   saveInterval = setInterval(()=> {
     saveGameState();
-    console.log(`${Date.now()}: Game Saved.`);
+    // console.log(`${Date.now()}: Game Saved.`);
   }, saveFrequency);
 }
 function saveGameState() {
