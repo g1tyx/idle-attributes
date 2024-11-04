@@ -48,6 +48,7 @@ body {
 }
 .character-card h1 {
   margin-top: 0;
+  font-size: 20px;
 }
 .character-card button {
   background-color: #444;
